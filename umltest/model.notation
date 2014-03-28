@@ -210,6 +210,10 @@
         </eAnnotations>
         <children xmi:type="notation:DecorationNode" xmi:id="_B0qmM7DsEeOCpIzMzAX9fQ" type="5014"/>
         <children xmi:type="notation:BasicCompartment" xmi:id="_B0qmNLDsEeOCpIzMzAX9fQ" type="7011">
+          <children xmi:type="notation:Shape" xmi:id="_Jm3hwLDtEeOCpIzMzAX9fQ" type="3012" fontName="Segoe UI" lineColor="0">
+            <element xmi:type="uml:Property" href="model.uml#_JldMgLDtEeOCpIzMzAX9fQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Jm3hwbDtEeOCpIzMzAX9fQ"/>
+          </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_B0qmNbDsEeOCpIzMzAX9fQ"/>
           <styles xmi:type="notation:SortingStyle" xmi:id="_B0qmNrDsEeOCpIzMzAX9fQ"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_B0qmN7DsEeOCpIzMzAX9fQ"/>

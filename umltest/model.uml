@@ -6,7 +6,7 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_unA5sFgDEeO6L_sR2bSI9Q" name="OperationServices">
       <packagedElement xmi:type="uml:Class" xmi:id="_xwS-0FgDEeO6L_sR2bSI9Q" name="IncidentManagement">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_ORT2UFgGEeO6L_sR2bSI9Q" name="priority" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ORT2UFgGEeO6L_sR2bSI9Q" name="severity" visibility="public">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O0kUYFgGEeO6L_sR2bSI9Q" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O0kUYVgGEeO6L_sR2bSI9Q" value="1"/>
@@ -44,7 +44,9 @@
       </ownedComment>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_84PvgLDrEeOCpIzMzAX9fQ" name="DeliveryServices">
-      <packagedElement xmi:type="uml:Class" xmi:id="_Bzs84LDsEeOCpIzMzAX9fQ" name="CatalogueOrder"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Bzs84LDsEeOCpIzMzAX9fQ" name="CatalogueOrder">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_JldMgLDtEeOCpIzMzAX9fQ" name="orderGraph" type="String"/>
+      </packagedElement>
     </packagedElement>
   </uml:Model>
   <ServiceModel:Service xmi:id="_BJLicFgGEeO6L_sR2bSI9Q" base_Class="_xwS-0FgDEeO6L_sR2bSI9Q" serviceId="OS_IM">
