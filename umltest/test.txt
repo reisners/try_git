@@ -1,4 +1,3 @@
 ABC
-def
-GHI
-uvw
+123
+xyz
